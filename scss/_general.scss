@@ -1,0 +1,57 @@
+@import "framework";
+@import "progressBar";
+$petroly : #546E7A;
+$gray : #383838;
+
+$banafsg: rgb(98, 58, 162);
+$red : rgb(249, 119, 148);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #546E7A;
+}
+
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill
+{
+  border: 18.5px solid $petroly;
+  width: 82.789px;
+  height: 82.789px;
+}
+.c100 > span
+{
+  top: 35px;
+  line-height: 1em;
+}
+.c100:hover > span
+{
+  color: $petroly;
+    top: 23px;
+    left: 9px;
+    line-height: 1em;
+    font-size: xx-large;
+}
+
+.c100
+{
+  margin: 30px auto;
+}
+
+.c100:after
+{
+  top: 0.15em;
+  left: 0.15em;
+  background-color: #ffffff;
+  width: 0.70em;
+  height: 0.70em;
+}
+
+@mixin main-background {
+  background: rgba(52, 131, 255, 0.75);
+  background: -webkit-linear-gradient(-45deg, rgba(205, 15, 216, 0.75) 0%, rgba(52, 131, 255, 0.75) 100%);
+  background: -o-linear-gradient(-45deg, rgba(205, 15, 216, 0.75) 0%, rgba(52, 131, 255, 0.75) 100%);
+  background: -moz-linear-gradient(-45deg, rgba(205, 15, 216, 0.75) 0%, rgba(52, 131, 255, 0.75) 100%);
+  background: linear-gradient(-45deg, rgba(205, 15, 216, 0.75) 0%, rgba(52, 131, 255, 0.75) 100%);
+}
